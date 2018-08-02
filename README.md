@@ -18,6 +18,26 @@ Telegram - https://t.me/KolosovGregory
 <br>
 Mail - <90kolosov@gmail.com>
 ## Icon
-![Icon](https://github.com/GregoryKolosov/Weather-App/blob/master/Design/Icon.png)
+![Icon](https://github.com/GregoryKolosov/Weather/blob/master/Design/Icon.png)
 ## UI
-![UI](https://github.com/GregoryKolosov/Weather-App/blob/master/Design/Weather%20Design.png)
+![UI](https://github.com/GregoryKolosov/Weather/blob/master/Design/Weather%20Design.png)
+## How to build
+1. Clone the repository
+```
+$ git clone https://github.com/GregoryKolosov/Weather.git
+```
+2. Install pods
+```
+$ cd Weather
+$ pod install
+```
+3. Open the workspace in Xcode.
+```
+$ open "Weather.xworkspace"
+```
+4. Sign up on [Dark Sky](https://darksky.net/) ad get your api key.
+5. Add your api key in ViewController.swift
+```swift
+let darkSkyApi_KEY = "api key"
+```swift
+6. Compile and run the app in your simulator
