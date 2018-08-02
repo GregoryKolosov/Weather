@@ -1,5 +1,6 @@
 # Weather
 Weather App built with Swift.
+![Gif](https://github.com/GregoryKolosov/Weather/blob/master/Design/WeatherGif.gif)
 ## Features
 * Cute and Flat design.
 * 3 day forecast.
