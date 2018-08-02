@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Weather" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3wt-bz-49e" userLabel="Forecast View">
+                                <rect key="frame" x="0.0" y="461" width="375" height="206"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZ0-Lp-g8I" userLabel="Second Day">
+                                        <rect key="frame" x="15.5" y="54" width="48" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="18"/>
+                                        <color key="textColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECs-gi-NNW" userLabel="SecondTemp">
+                                        <rect key="frame" x="15.5" y="134" width="48" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="18"/>
+                                        <color key="textColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UE2-8j-6C8" userLabel="Third Day">
+                                        <rect key="frame" x="163.5" y="54" width="48" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="18"/>
+                                        <color key="textColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Eb-x5-he2" userLabel="Third Temp">
+                                        <rect key="frame" x="163.5" y="134" width="48" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="18"/>
+                                        <color key="textColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lo8-4T-5rc" userLabel="Fourth Day">
+                                        <rect key="frame" x="311.5" y="54" width="48" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="18"/>
+                                        <color key="textColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAr-Xa-BYH" userLabel="Fourth Temp">
+                                        <rect key="frame" x="311.5" y="134" width="48" height="18"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="18"/>
+                                        <color key="textColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="highlightedColor" red="0.79607843137254897" green="0.45882352941176469" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="rCV-YZ-tFS" userLabel="Left Image View">
+                                        <rect key="frame" x="108.5" y="39" width="10" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="OO1-Ib-vFV"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line" translatesAutoresizingMaskIntoConstraints="NO" id="jXv-bP-Nvt" userLabel="Right Image View">
+                                        <rect key="frame" x="256.5" y="39" width="10" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="10" id="1YO-Bl-oWe"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Lo8-4T-5rc" firstAttribute="leading" secondItem="jXv-bP-Nvt" secondAttribute="trailing" constant="45" id="3ME-b1-yzg"/>
+                                    <constraint firstItem="UE2-8j-6C8" firstAttribute="centerX" secondItem="3wt-bz-49e" secondAttribute="centerX" id="3Pc-sL-ZbN"/>
+                                    <constraint firstItem="8Eb-x5-he2" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" constant="40" id="3W3-5f-fUh"/>
+                                    <constraint firstItem="jXv-bP-Nvt" firstAttribute="leading" secondItem="UE2-8j-6C8" secondAttribute="trailing" constant="45" id="Cjf-l0-0mC"/>
+                                    <constraint firstItem="Lo8-4T-5rc" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" constant="-40" id="Hvh-FV-bc2"/>
+                                    <constraint firstItem="UE2-8j-6C8" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" constant="-40" id="OxY-4a-h5B"/>
+                                    <constraint firstAttribute="bottom" secondItem="rCV-YZ-tFS" secondAttribute="bottom" constant="39" id="SKk-n7-EGf"/>
+                                    <constraint firstItem="jXv-bP-Nvt" firstAttribute="top" secondItem="3wt-bz-49e" secondAttribute="top" constant="39" id="TG0-mB-wfr"/>
+                                    <constraint firstItem="rCV-YZ-tFS" firstAttribute="top" secondItem="3wt-bz-49e" secondAttribute="top" constant="39" id="UdD-rc-c56"/>
+                                    <constraint firstItem="tZ0-Lp-g8I" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" constant="-40" id="ca9-mr-2uF"/>
+                                    <constraint firstItem="ECs-gi-NNW" firstAttribute="centerX" secondItem="tZ0-Lp-g8I" secondAttribute="centerX" id="dJK-LV-rDQ"/>
+                                    <constraint firstItem="UE2-8j-6C8" firstAttribute="leading" secondItem="rCV-YZ-tFS" secondAttribute="trailing" constant="45" id="f29-1m-fDh"/>
+                                    <constraint firstItem="rCV-YZ-tFS" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" id="gW5-Gr-oJI"/>
+                                    <constraint firstItem="rCV-YZ-tFS" firstAttribute="leading" secondItem="tZ0-Lp-g8I" secondAttribute="trailing" constant="45" id="mrF-Nb-W4a"/>
+                                    <constraint firstItem="wAr-Xa-BYH" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" constant="40" id="rwD-mh-N73"/>
+                                    <constraint firstAttribute="bottom" secondItem="jXv-bP-Nvt" secondAttribute="bottom" constant="39" id="tsf-tV-FTW"/>
+                                    <constraint firstItem="wAr-Xa-BYH" firstAttribute="centerX" secondItem="Lo8-4T-5rc" secondAttribute="centerX" id="v3b-XF-678"/>
+                                    <constraint firstItem="jXv-bP-Nvt" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" id="vAR-z0-ZnH"/>
+                                    <constraint firstItem="8Eb-x5-he2" firstAttribute="centerX" secondItem="3wt-bz-49e" secondAttribute="centerX" id="z4h-qT-UKR"/>
+                                    <constraint firstItem="ECs-gi-NNW" firstAttribute="centerY" secondItem="3wt-bz-49e" secondAttribute="centerY" constant="40" id="zbR-nd-EE9"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3aS-am-pNY" userLabel="Current View">
+                                <rect key="frame" x="0.0" y="94" width="375" height="367"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGB-iq-oeQ" userLabel="Current Summary Label">
+                                        <rect key="frame" x="25" y="30" width="319" height="36"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="36"/>
+                                        <color key="textColor" red="0.9951923077" green="0.9903846154" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXr-8Q-oC2" userLabel="Current Temp Label">
+                                        <rect key="frame" x="25" y="86" width="190" height="72"/>
+                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="72"/>
+                                        <color key="textColor" red="0.9951923077" green="0.9903846154" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OzP-uD-iRI">
+                                        <rect key="frame" x="150" y="117" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="DDC-Hf-Zob"/>
+                                            <constraint firstAttribute="height" constant="200" id="abb-bB-KU8"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="EXr-8Q-oC2" firstAttribute="top" secondItem="zGB-iq-oeQ" secondAttribute="bottom" constant="20" id="1Z3-az-gRb"/>
+                                    <constraint firstAttribute="trailing" secondItem="OzP-uD-iRI" secondAttribute="trailing" constant="25" id="Nmv-lJ-y9X"/>
+                                    <constraint firstAttribute="bottom" secondItem="OzP-uD-iRI" secondAttribute="bottom" constant="50" id="eG6-Ve-7NL"/>
+                                    <constraint firstItem="EXr-8Q-oC2" firstAttribute="leading" secondItem="3aS-am-pNY" secondAttribute="leading" constant="25" id="g98-wL-UaB"/>
+                                    <constraint firstItem="zGB-iq-oeQ" firstAttribute="top" secondItem="3aS-am-pNY" secondAttribute="top" constant="30" id="oSR-C3-dRR"/>
+                                    <constraint firstItem="zGB-iq-oeQ" firstAttribute="leading" secondItem="3aS-am-pNY" secondAttribute="leading" constant="25" id="xhW-K9-45T"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3wt-bz-49e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5Ay-UD-h5A"/>
+                            <constraint firstItem="3aS-am-pNY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.55" id="KXe-BJ-y1b"/>
+                            <constraint firstItem="3wt-bz-49e" firstAttribute="top" secondItem="3aS-am-pNY" secondAttribute="bottom" id="Nyv-km-cWY"/>
+                            <constraint firstItem="3aS-am-pNY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Wnu-IP-eRw"/>
+                            <constraint firstItem="3wt-bz-49e" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="jPW-TJ-BTz"/>
+                            <constraint firstItem="3wt-bz-49e" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.309" id="jvb-9g-PTk"/>
+                            <constraint firstItem="zGB-iq-oeQ" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.85" id="lnM-xh-Qwx"/>
+                            <constraint firstAttribute="bottom" secondItem="3wt-bz-49e" secondAttribute="bottom" id="nav-Qi-Z3p"/>
+                            <constraint firstItem="3aS-am-pNY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="q0N-9L-Cku"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="currentSummaryLabel" destination="zGB-iq-oeQ" id="9WS-Gl-7Vq"/>
+                        <outlet property="currentTemperatureLabel" destination="EXr-8Q-oC2" id="Xvu-k5-7Pp"/>
+                        <outlet property="currentView" destination="3aS-am-pNY" id="3B3-1I-1cv"/>
+                        <outlet property="forecastView" destination="3wt-bz-49e" id="Qwy-VX-QEn"/>
+                        <outlet property="fourthDayNameLabel" destination="Lo8-4T-5rc" id="sfx-s8-nnB"/>
+                        <outlet property="fourthDayTemperatureLabel" destination="wAr-Xa-BYH" id="gUr-Uf-gHo"/>
+                        <outlet property="mainIcon" destination="OzP-uD-iRI" id="R2x-8X-C0K"/>
+                        <outlet property="secondDayNameLabel" destination="tZ0-Lp-g8I" id="GNx-AQ-Vjd"/>
+                        <outlet property="secondDayTemperatureLabel" destination="ECs-gi-NNW" id="Deb-Za-4Yz"/>
+                        <outlet property="thirdDayNameLabel" destination="UE2-8j-6C8" id="59q-GN-jjr"/>
+                        <outlet property="thirdDayTemperatureLabel" destination="8Eb-x5-he2" id="Oih-Dm-M0B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="line" width="30" height="1430"/>
+    </resources>
+</document>
