@@ -1,4 +1,4 @@
-# Weather-App
+# Weather
 Weather App built with Swift.
 ## Features
 * Cute and Flat design.
