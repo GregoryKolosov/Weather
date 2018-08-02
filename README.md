@@ -12,11 +12,11 @@ Weather App built with Swift.
 * [GooglePlaces](https://developers.google.com/places/ios-sdk/autocomplete)
 * [CoreLocation](https://developer.apple.com/documentation/corelocation)
 ## Contact me 
-Facebook  https://www.facebook.com/gregory.kolosov
+Facebook - https://www.facebook.com/gregory.kolosov
 <br>
-Telegram  https://t.me/KolosovGregory
+Telegram - https://t.me/KolosovGregory
 <br>
-Mail      <90kolosov@gmail.com>
+Mail - <90kolosov@gmail.com>
 ## Icon
 ![Icon](https://github.com/GregoryKolosov/Weather-App/blob/master/Design/Icon.png)
 ## UI
