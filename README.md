@@ -10,7 +10,7 @@ Weather App built with Swift.
 * [Alamofire](https://cocoapods.org/pods/Alamofire)
 * [SwiftyJSON](https://cocoapods.org/pods/SwiftyJSON)
 * [GooglePlaces](https://developers.google.com/places/ios-sdk/autocomplete)
-* CoreLocation
+* [CoreLocation](https://developer.apple.com/documentation/corelocation)
 ## Contact me 
 Facebook https://www.facebook.com/gregory.kolosov
 <br>
