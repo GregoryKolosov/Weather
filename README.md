@@ -16,8 +16,8 @@ Facebook https://www.facebook.com/gregory.kolosov
 <br>
 Telegram https://t.me/KolosovGregory
 <br>
-Mail <90kolosov@gmail.com
+Mail <90kolosov@gmail.com>
 ## Icon
-![Icon](Weather-App/Design/Icon.png)
+![Icon](https://github.com/GregoryKolosov/Weather-App/blob/master/Design/Icon.png)
 ## UI
-![UI](Weather-App/Design/Weather Design.png)
+![UI](https://github.com/GregoryKolosov/Weather-App/Design/Weather Design.png)
