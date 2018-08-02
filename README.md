@@ -39,5 +39,5 @@ $ open "Weather.xworkspace"
 5. Add your api key in ViewController.swift
 ```swift
 let darkSkyApi_KEY = "api key"
-```swift
+```
 6. Compile and run the app in your simulator
