@@ -20,4 +20,4 @@ Mail <90kolosov@gmail.com>
 ## Icon
 ![Icon](https://github.com/GregoryKolosov/Weather-App/blob/master/Design/Icon.png)
 ## UI
-![UI](https://github.com/GregoryKolosov/Weather-App/Design/Weather Design.png)
+![UI](https://github.com/GregoryKolosov/Weather-App/blob/master/Design/Weather%20Design.png)
