@@ -35,7 +35,7 @@ $ pod install
 ```
 $ open "Weather.xworkspace"
 ```
-4. Sign up on [Dark Sky](https://darksky.net/) ad get your api key.
+4. Sign up on <https://darksky.net/> and get your api key.
 5. Add your api key in ViewController.swift
 ```swift
 let darkSkyApi_KEY = "api key"
